@@ -8,10 +8,27 @@ import "./assets/img/4geeks.ico";
 window.onload = function() {
   //write your code here
   console.log("Hello Rigo from the console!");
-  let pronouns = ["the", "our"];
-  let adjs = ["great", "big"];
-  let nouns = ["jogger", "racoon"];
-  let domains = [".com", ".net"];
+  let pronouns = ["the", "our", "your", "my", "his", "her", "their"];
+  let adjs = [
+    "great",
+    "big",
+    "small",
+    "colorful",
+    "brilliant",
+    "vibrant",
+    "majestic"
+  ];
+  let nouns = [
+    "jogger",
+    "racoon",
+    "mountain",
+    "river",
+    "ocean",
+    "forest",
+    "valley"
+  ];
+  let domains = [".com", ".net", ".org", ".io", ".tech", ".co", ".edu"];
+
   for (let pronoun of pronouns) {
     for (let adj of adjs) {
       for (let noun of nouns) {
